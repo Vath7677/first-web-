@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome !</h1>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a herf="#">Home</a></li>
+        <li><a herf="#">News</a></li>
+        <li><a herf="#">Contect</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+        <h2>Home</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <img src="./img2.png" alt="" />
+      </section>
+      <section>
+        <h2>News</h2>
+        <ul>
+          <li>Name</li>
+          <li>Age</li>
+          <li>Country</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Input</h2>
+        <form>
+          <input type="email" placeholder="Enter email" /><br />
+          <input type="password" id="pwd" placeholder="Enter password" /><br />
+          <input
+            type="checkbox"
+            onclick="document.getElementById('pwd').type = this.checked ? 'text' :'password'"
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Create by wath-2025</p>
+    </footer>
+  </body>
+</html>
